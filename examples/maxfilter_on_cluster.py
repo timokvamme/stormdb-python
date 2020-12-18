@@ -1,6 +1,6 @@
 from stormdb.access import Query
 from stormdb.process import Maxfilter
-from os.path import join
+from os.path import join, splitext
 from os import makedirs
 
 proj_name = 'MINDLAB2018_MEG-SF-Integration-Images'
