@@ -29,7 +29,7 @@ for ses in series:
 
         # see maxfilter manual for options
         mf.build_cmd(in_fname, out_fname, logfile=log_fname,
-                autobad='on', st=True, st_buflen=16.0, st_corr=0.96,
+                autobad='on', st=True, st_buflen=10.0, st_corr=0.98,
                 force=False)
 
 mf.submit(fake=True)  # remove "fake" when ready to submit!
